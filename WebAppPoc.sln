@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppPoc", "WebAppPoc\WebAppPoc.csproj", "{A67FF602-7141-4D53-A8F9-CD94EFB17A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiPoc", "WebAppPoc\WebApiPoc.csproj", "{A67FF602-7141-4D53-A8F9-CD94EFB17A70}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{C7DB3B50-D2EA-494B-B2D8-56FD5023D5EE}"
 EndProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CD6B1A5A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalTests", "FunctionalTests\FunctionalTests.csproj", "{B78104EE-484E-4360-B49F-E9BA2031EF04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{D7CBFF6E-E238-4235-84E6-82B0F1BDE76F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{D7CBFF6E-E238-4235-84E6-82B0F1BDE76F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
