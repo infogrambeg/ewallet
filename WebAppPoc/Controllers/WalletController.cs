@@ -98,8 +98,7 @@ namespace WebAppPoc.Controllers
         [Route("HelloWorld")]
         public async Task<IActionResult> HelloWorld()
         {
-            string _message = await _walletService.HelloWorld();
-            return Ok(new { code = "200", message = _message });
+            return Ok(new { code = "200", message = await _walletService.HelloWorld() });
         }
     }
 }
