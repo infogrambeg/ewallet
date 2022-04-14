@@ -12,7 +12,7 @@ namespace ApplicationServices
 {
     public class WalletService : IWalletService
     {
-        private const IsolationLevel _ISOLATION_LEVEL = IsolationLevel.Serializable;
+        private const IsolationLevel _ISOLATION_LEVEL = IsolationLevel.ReadCommitted;
 
         private readonly ICoreUnitOfWork _coreUnitOfWork;
 
@@ -122,7 +122,7 @@ namespace ApplicationServices
 
         public async Task<string> HelloWorld()
         {
-            return "Hello World";
+            return await Task.FromResult("Helo World");
         }
     }
 }
